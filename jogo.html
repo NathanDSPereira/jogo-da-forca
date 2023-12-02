@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="jogo.css">
+    <title>Jogo da Forca</title>
+</head>
+<body class="corpo">
+    
+    <header class="cabecalho">
+        <img id="imagem"   src="./Imagens/Vector.png" alt="Logo da Alura com a inicial da letra A" class="logo">
+        <link href="//fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    </header>
+
+    <section class="secao">
+        <div>
+            <h2 class="vidas"></h2>
+            <canvas width ="1000" height ="600" class ="canvas"></canvas>
+            <div class="botoes">
+                <button onclick="verificaLetraCorretaClicada('A')" id="A" class="botao">a</button>
+                <button onclick="verificaLetraCorretaClicada('B')" id="B" class="botao">b</button>
+                <button onclick="verificaLetraCorretaClicada('C')" id="C" class="botao">c</button>
+                <button onclick="verificaLetraCorretaClicada('D')" id="D" class="botao">d</button>
+                <button onclick="verificaLetraCorretaClicada('E')" id="E" class="botao">e</button>
+                <button onclick="verificaLetraCorretaClicada('F')" id="F" class="botao">f</button>
+                <button onclick="verificaLetraCorretaClicada('G')" id="G" class="botao">g</button>
+                <button onclick="verificaLetraCorretaClicada('H')" id="H" class="botao">h</button>
+                <button onclick="verificaLetraCorretaClicada('I')" id="I" class="botao">i</button>
+                <button onclick="verificaLetraCorretaClicada('J')" id="J" class="botao">j</button>
+                <button onclick="verificaLetraCorretaClicada('K')" id="K" class="botao">k</button>
+                <button onclick="verificaLetraCorretaClicada('L')" id="L" class="botao">l</button>
+                <button onclick="verificaLetraCorretaClicada('M')" id="M" class="botao">m</button>
+                <button onclick="verificaLetraCorretaClicada('N')" id="N" class="botao">n</button>
+                <button onclick="verificaLetraCorretaClicada('O')" id="O" class="botao">o</button>
+                <button onclick="verificaLetraCorretaClicada('P')" id="P" class="botao">p</button>
+                <button onclick="verificaLetraCorretaClicada('Q')" id="Q" class="botao">q</button>
+                <button onclick="verificaLetraCorretaClicada('R')" id="R" class="botao">r</button>
+                <button onclick="verificaLetraCorretaClicada('S')" id="S" class="botao">s</button>
+                <button onclick="verificaLetraCorretaClicada('T')" id="T" class="botao">t</button>
+                <button onclick="verificaLetraCorretaClicada('U')" id="U" class="botao">u</button>
+                <button onclick="verificaLetraCorretaClicada('V')" id="V" class="botao">v</button>
+                <button onclick="verificaLetraCorretaClicada('W')" id="W" class="botao">w</button>
+                <button onclick="verificaLetraCorretaClicada('X')" id="X" class="botao">x</button>
+                <button onclick="verificaLetraCorretaClicada('Y')" id="Y" class="botao">y</button>
+                <button onclick="verificaLetraCorretaClicada('Z')" id="Z" class="botao">z</button>
+            </div>
+
+            <div class="divisao">
+                <button class="desistir"><a href="home-page.html" class="voltar-home-page">Voltar</a></button>
+                <button class="reiniciar" id = "reiniciarjogo">Reiniciar</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./jogo.js"></script>
+    <script src="./forca.js"></script>
+
+</body>
+</html>

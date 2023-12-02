@@ -1,0 +1,125 @@
+* {
+    background:#cac7c7;
+    background-repeat: no-repeat;
+}
+
+.cabecalho {
+    margin: 20px 20px;
+}
+
+.main {
+    height: 100%;
+}
+
+.secao {
+    display: flex;
+    justify-content: center;
+}
+
+#campo-texto {
+    width: 413px;;
+    height: 60px;
+    border: 2px white solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #fefefe;
+}
+
+.informacao {
+    font-size: 15px;
+    color: black;
+    position: relative;
+    font-weight: bold;
+    top: 360px;
+    margin: 0px 0px 0px 360px;
+}
+
+.divisao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#adicionar-nova-palavra {
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    background: #8fece9;
+    margin: 400px 0px 0px 350px;
+    color: #000000;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px #000000;
+    text-transform: uppercase;
+    border: none;
+}
+
+#adicionar-nova-palavra:hover{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#cancelar{
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    background: #8fece9;
+    margin: 400px 350px 0px 0px;
+    box-shadow: 10px 10px 5px #000000;
+    border: none;
+
+}
+
+#cancelar:hover {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.voltar {
+    background: #8fece9;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* -----------------------------------//----------------------------------------- */
+/* CSS DA PÁGINA INICIAL */
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+#comecar-jogo {
+    margin-top: 150px;
+    width: 300px;
+    height: 90px;
+    border-radius: 24px;
+    background: #8fece9;
+    box-shadow: 10px 10px 5px #fefefefe;
+    font-weight: bold;
+    border: none;
+}
+
+#comecar-jogo:hover, #adiciona-palavra-page:hover {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#adiciona-palavra-page {
+    margin-left: 200;
+    margin-top: 20px;
+    width: 300px;
+    height: 90px;
+    border-radius: 24px;
+    background: #8fece9;
+    box-shadow: 10px 10px 5px #fefefefe;
+    font-weight: bold;
+    border: none;
+}
+
+.palavra-nova, .inicia-jogo {
+    font-weight: bold;
+    text-decoration: none;
+    background: #8fece9;
+    text-transform: uppercase;
+
+}
